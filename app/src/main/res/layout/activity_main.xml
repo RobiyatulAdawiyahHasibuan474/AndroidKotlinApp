@@ -24,6 +24,15 @@
         android:onClick="addNumber"/>
 
     <Button
+        android:id="@+id/btnResetNumber"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/reset_number"
+        android:onClick="resetNumber"/>
+
+    <Button
         android:id="@+id/btnSubtractNumber"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -32,12 +41,4 @@
         android:text="@string/subtract_number"
         android:onClick="subtractNumber"/>
 
-    <Button
-        android:id="@+id/btnResetNumber"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-
-        android:text="@string/reset_number"
-        android:onClick="resetNumber"/>
 </LinearLayout>
